@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness And More..</title>
+</head>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">     -->
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    /* CSS Reset */
+    body
+    {
+        /* font-family: 'Scheherazade New', serif; */
+        /* font-family: 'IM Fell English SC', serif; */
+        /* font-family: 'Festive', cursive; */
+        /* font-family: 'Italianno', cursive; */
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* height: 5000px; */
+        background: url('man.jpg');
+    }
+    .left
+    {
+        position: absolute;
+        left: 38px;
+        top: 18px;
+        display: inline-block;
+        border: 0px solid rgb(6, 6, 20);
+    }
+    .left img
+    {
+        width: 136px;
+        filter: invert(100%);
+        image-orientation: 34px;
+        /* position: absolute;  */
+    }
+    .left div
+    {
+        text-align: center;
+        /* position: static; */
+        width: auto;
+        font-style:inherit;
+        line-height: 19px;
+        font-size: 26px;
+    }
+    .mid
+    {
+        display: block;
+        width: 53%;
+        margin: 10px auto;
+        border: 0px solid rgb(105, 97, 97);
+    }
+    .right
+    {
+        position: absolute;
+        right: 38px;
+        top: 28px;
+        display: inline-block ;
+        border: 0px solid rgb(109, 105, 105);
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a
+    {
+        color: cornsilk;
+        text-decoration: none;
+        padding: 24px 25px;
+    }
+    .navbar li a:hover
+    {
+        text-decoration: underline;
+        color: gray;
+    }
+    /* {
+        color: cornsilk;
+        text-decoration: none;
+        padding: 24px 25px;
+    } */
+    .btn
+    {
+        font-family: 'IM Fell English SC', serif;
+        margin:0px 9px;
+        color: ivory;
+        background: black;
+        padding: 5px -3px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover
+    {
+        text-decoration: underline;
+        /* color: gray; */
+        background: gray;
+    }
+    .container
+    {
+        border-radius: 5px;
+        border: 0px solid grey;
+        margin: 100px -50px;
+        padding: 20px 10px 30px 80px;
+        width: 43%;
+    }
+    /* .container h1
+    {
+        text-align: center;
+    } */
+    .container button
+    {
+        text-align: center;
+        width: 70%;
+        padding: 8px;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .form-group input
+    {
+        font-family: 'IM Fell English SC', serif;
+        text-align: center;
+        display: block;
+        width: 70%;
+        padding: 1px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 5px;
+        font-size: 23px;
+    }
+</style>
+<body>
+    <header classs = "header">
+    <!-- left box for logo -->
+        <div class="left">
+            <!-- Menu: -->
+            <img src="gym.png" alt="">
+            <div>Fitness And More..
+            </div>
+        </div>
+        <!-- mid box for logo -->
+        <div class="mid">
+            <!-- Fitness And More.. -->
+            <ul class="navbar">
+                <li> <a href="#">Home</a>   </li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us</a></li>
+            </ul>
+        </div>        
+        <!--right box for logo -->
+        <div class="right">
+            <!-- Search -->
+            <button class="btn">Know More</button>
+            <button class="btn">Follow Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Angul!!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email-Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
